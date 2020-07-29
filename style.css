@@ -2,81 +2,109 @@
   font-family: fancy;
   src: url(Muli-Bold.ttf);
 }
-nav {
-  text-align: center;
-  display: inline;
-  font-family: fancy;
+.logo {
+  height: 40px;
+  width: 40px;
 }
-.logo a {
-  float: left;
-  background: black;
-  border: 1px solid black;
-  color: white;
+.phone {
+  height: 25px;
+  width: 25px;
 }
-.menu li {
-  display: inline;
-  border: 1px solid black;
-  background: black;
-  margin-right: 20px;
-  margin-left: 20px;
-  font-family: fancy;
+header {
+  display: flex;
+  background-color: aquamarine;
+  height: 65px;
+  padding: 0 20px;
+  align-items: center;
 }
-.menu a {
-  color: white;
+.navbar {
+  display: flex;
+  align-content: center;
+}
+.navbar-nav {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+}
+.nav {
+  display: flex;
   font-size: 20px;
+  font-family: fancy;
+  list-style-type: none;
+  margin: 0;
 }
-a {
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.nav-item:hover {
+  border: 1px solid salmon;
+  background-color: salmon;
+  cursor: pointer;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+.logo-wraper {
+  display: flex;
+}
+.logo-brand {
+  text-decoration: none;
+  font-family: fancy;
+  color: black;
+}
+.img-top {
+  height: 400px;
+  width: 300px;
+}
+section {
+  display: flex;
+}
+.card-box {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.card {
+  justify-content: space-around;
+  flex-basis: 25%;
+  padding: 5% 3%;
+  text-align: center;
+}
+.card a {
   text-decoration: none;
   font-size: 20px;
   font-family: fancy;
-}
-.menu a:hover {
-  background: skyblue;
-}
-.logo a:hover {
-  background: skyblue;
-}
-img {
-  width: 300px;
-  height: 300px;
-}
-.photos li {
-  display: inline-block;
-  text-align: center;
-  padding: 20px;
-}
-section {
-  text-align: center;
+  color: black;
 }
 .star {
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
 }
-.rating p {
-  display: inline;
-  font-size: 20px;
+.card-rating {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 15px;
 }
-.ratings div {
-  display: inline;
+.star-rating {
+  display: flex;
 }
-.rating {
-  margin: 20px;
+.heart-rating {
+  display: flex;
 }
-.latin p {
-  font-size: 20px;
-  max-width: 300px;
+.description {
+  font-family: fancy;
+  font-size: 16px;
+  color: gray;
 }
-.buy a {
-  border: solid 2px black;
-  margin: 20px;
-  font-weight: bold;
-  padding: 10px;
+.button-link {
+  border: 2px solid black;
+  margin: 10px 10px;
+  padding: 10px 20px;
 }
-.cart {
-  color: white;
+.button-link:first-child {
   background-color: black;
-}
-.view {
-  color: black;
-  background-color: wheat;
+  color: white;
 }
